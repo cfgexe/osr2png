@@ -160,6 +160,14 @@ class Canvas:
             alignment=TextAlignment.right,
             offset=(-120, -100),
         )
+        
+        # i dont fucking know
+        
+        self.text.draw_text(
+            f"{self.settings.replay.accuracy.hitmiss: .0f}%",
+            alignment=TextAlignment.right,
+            offset=(-150,-120),
+        )
 
         self.text.draw_text(
             pp["mods"]["name"],
